@@ -1,5 +1,11 @@
 # Next Word Predictor using LSTM
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](YOUR_STREAMLIT_LINK)
+[![Python](https://img.shields.io/badge/Python-3.11-blue)]
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.16-orange)]
+[![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red)]
+# Next Word Predictor using LSTM
+
 A Deep Learning based Next Word Prediction web application built using TensorFlow, Keras, LSTM and Streamlit.
 
 ## Project Overview
