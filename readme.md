@@ -4,45 +4,43 @@ A Deep Learning based Next Word Prediction web application built using TensorFlo
 
 <p align="center">
 
-[![Live Demo](https://img.shields.io/badge/🚀-Live_Demo-success?style=for-the-badge)](https://YOUR-STREAMLIT-LINK.streamlit.app)
+[![Live Demo](https://img.shields.io/badge/🚀-Live_Demo-success?style=for-the-badge)](https://next-word-predictor-rajan.streamlit.app)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/rajanjaiswalml/LSTM-Next-Word-Predictor)
 [![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)]
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.16-orange?style=for-the-badge&logo=tensorflow)]
-[![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red?style=for-the-badge&logo=streamlit)]
+[![Streamlit](https://img.shields.io/badge/Streamlit-Live-red?style=for-the-badge&logo=streamlit)]
 
 </p>
 
 ---
 
-## 🚀 Live Demo
+# 🚀 Live Demo
 
-👉 https://YOUR-STREAMLIT-LINK.streamlit.app
-
----
-
-## 📌 Project Overview
-
-This project is an AI-powered Next Word Prediction system that uses an LSTM (Long Short-Term Memory) neural network to predict the next most likely word in a sentence.
-
-The application includes an interactive Streamlit interface where users can enter text and receive intelligent next-word predictions in real time.
+### 🌐 https://next-word-predictor-rajan.streamlit.app
 
 ---
 
-## ✨ Features
+# 📌 Project Overview
+
+This project is an AI-powered **Next Word Prediction** application built using **TensorFlow, Keras, and LSTM (Long Short-Term Memory)**. The model predicts the most probable next word from a user-provided text sequence and serves predictions through an interactive Streamlit web interface.
+
+---
+
+# ✨ Features
 
 - Deep Learning based Next Word Prediction
 - LSTM Neural Network
 - Interactive Streamlit Web App
 - Real-time Predictions
-- Clean and Responsive UI
-- TensorFlow & Keras Model
-- Pickle-based Tokenizer Loading
+- Clean & Responsive UI
+- TensorFlow + Keras Model
+- Pickle-based Tokenizer
 - Fast Inference
-- Easy Deployment
+- Fully Deployed Online
 
 ---
 
-## 🛠 Tech Stack
+# 🛠 Tech Stack
 
 - Python
 - TensorFlow
@@ -55,21 +53,21 @@ The application includes an interactive Streamlit interface where users can ente
 
 ---
 
-## 📊 Model Details
+# 📊 Model Details
 
 | Parameter | Value |
 |-----------|-------|
 | Model | LSTM |
-| Framework | TensorFlow / Keras |
-| Dataset Size | 10,000+ Text Sequences |
+| Dataset | 10,000+ Text Sequences |
 | Epochs | 100 |
 | Optimizer | Adam |
 | Loss Function | Categorical Crossentropy |
-| Training Accuracy | ~72.9% |
+| Training Accuracy | **72.93%** |
+| Training Loss | **1.2153** |
 
 ---
 
-## 📁 Project Structure
+# 📂 Project Structure
 
 ```
 LSTM-Next-Word-Predictor
@@ -85,7 +83,7 @@ LSTM-Next-Word-Predictor
 
 ---
 
-## ⚙️ Installation
+# ⚙️ Installation
 
 Clone the repository
 
@@ -93,7 +91,7 @@ Clone the repository
 git clone https://github.com/rajanjaiswalml/LSTM-Next-Word-Predictor.git
 ```
 
-Move into the project directory
+Move into project
 
 ```bash
 cd LSTM-Next-Word-Predictor
@@ -105,7 +103,7 @@ Install dependencies
 pip install -r requirements.txt
 ```
 
-Run the application
+Run
 
 ```bash
 streamlit run app.py
@@ -113,49 +111,45 @@ streamlit run app.py
 
 ---
 
-## 📸 Application Preview
+# 📸 Demo
 
-### Home Screen
+👉 **Live App**
 
-> Add your application screenshot here.
+https://next-word-predictor-rajan.streamlit.app
 
 ---
 
-## 🎯 Future Improvements
+# 🎯 Future Improvements
 
 - Transformer-based Language Model
 - Top-K Predictions
 - Beam Search
+- GPT Integration
+- Better UI Animations
 - Sentence Auto Completion
-- Hugging Face Integration
-- GPT-based Prediction
-- Better UI & Animations
+- Multi-language Support
 
 ---
 
-## 📚 Learning Outcomes
-
-Through this project, I gained practical experience with:
+# 📚 What I Learned
 
 - Deep Learning
-- Natural Language Processing (NLP)
-- Sequence Modeling
 - LSTM Networks
+- NLP
 - TensorFlow & Keras
-- Model Deployment using Streamlit
+- Streamlit Deployment
 - Git & GitHub
+- Model Serialization
+- End-to-End AI Project Deployment
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Rajan Jaiswal**
 
 GitHub:
 https://github.com/rajanjaiswalml
-
-LinkedIn:
-(Add your LinkedIn profile)
 
 ---
 
