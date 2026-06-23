@@ -1,55 +1,75 @@
-# Next Word Predictor using LSTM
+# 🧠 Next Word Predictor using LSTM
 
-[![Live Demo](https://img.shields.io/badge/🚀-Live_Demo-success?style=for-the-badge)](https://next-word-predictor-rajan.streamlit.app)
+A Deep Learning based Next Word Prediction web application built using TensorFlow, Keras, LSTM and Streamlit. The model predicts the most probable next word from a given text sequence using an LSTM neural network trained on a dataset of 10,000+ text sequences.
+
+<p align="center">
+
+[![Live Demo](https://img.shields.io/badge/🚀-Live_Demo-success?style=for-the-badge)](https://YOUR-STREAMLIT-LINK.streamlit.app)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/rajanjaiswalml/LSTM-Next-Word-Predictor)
-[![Python](https://img.shields.io/badge/Python-3.11-blue)]
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.16-orange)]
-[![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red)]
+[![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)]
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.16-orange?style=for-the-badge&logo=tensorflow)]
+[![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red?style=for-the-badge&logo=streamlit)]
 
-A Deep Learning based Next Word Prediction web application built using TensorFlow, Keras, LSTM and Streamlit.
-
-## Project Overview
-
-This project predicts the next most probable word from a given text sequence using an LSTM (Long Short-Term Memory) neural network.
-
-The objective of this project was to understand sequence modeling, text preprocessing, tokenization, and deployment of deep learning models through an interactive web application.
+</p>
 
 ---
 
-## Features
+## 🚀 Live Demo
 
-- Next Word Prediction
-- Interactive Streamlit Interface
-- LSTM-based Deep Learning Model
-- Text Tokenization
-- Sequence Padding
-- Real-time Prediction
+👉 https://YOUR-STREAMLIT-LINK.streamlit.app
 
 ---
 
-## Model Performance
+## 📌 Project Overview
 
-| Metric | Value |
-|---------|---------|
-| Dataset Size | 10,000 Text Samples |
-| Epochs | 100 |
-| Training Accuracy | 72.93% |
-| Training Loss | 1.2153 |
+This project is an AI-powered Next Word Prediction system that uses an LSTM (Long Short-Term Memory) neural network to predict the next most likely word in a sentence.
+
+The application includes an interactive Streamlit interface where users can enter text and receive intelligent next-word predictions in real time.
 
 ---
 
-## Tech Stack
+## ✨ Features
+
+- Deep Learning based Next Word Prediction
+- LSTM Neural Network
+- Interactive Streamlit Web App
+- Real-time Predictions
+- Clean and Responsive UI
+- TensorFlow & Keras Model
+- Pickle-based Tokenizer Loading
+- Fast Inference
+- Easy Deployment
+
+---
+
+## 🛠 Tech Stack
 
 - Python
 - TensorFlow
 - Keras
-- LSTM
 - NumPy
 - Streamlit
+- Pickle
+- Git
+- GitHub
 
 ---
 
-## Project Structure
+## 📊 Model Details
+
+| Parameter | Value |
+|-----------|-------|
+| Model | LSTM |
+| Framework | TensorFlow / Keras |
+| Dataset Size | 10,000+ Text Sequences |
+| Epochs | 100 |
+| Optimizer | Adam |
+| Loss Function | Categorical Crossentropy |
+| Training Accuracy | ~72.9% |
+
+---
+
+## 📁 Project Structure
 
 ```
 LSTM-Next-Word-Predictor
@@ -60,38 +80,83 @@ LSTM-Next-Word-Predictor
 ├── max_len.pkl
 ├── requirements.txt
 ├── README.md
-├── .gitignore
-└── assets
+└── .gitignore
 ```
 
 ---
 
-## Installation
+## ⚙️ Installation
+
+Clone the repository
 
 ```bash
 git clone https://github.com/rajanjaiswalml/LSTM-Next-Word-Predictor.git
+```
 
+Move into the project directory
+
+```bash
 cd LSTM-Next-Word-Predictor
+```
 
+Install dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
+Run the application
+
+```bash
 streamlit run app.py
 ```
 
 ---
 
-## Future Improvements
+## 📸 Application Preview
 
-- Larger Dataset
-- Better Hyperparameter Tuning
-- Transformer Architecture
-- Beam Search
-- Better Prediction Accuracy
+### Home Screen
+
+> Add your application screenshot here.
 
 ---
 
-## Author
+## 🎯 Future Improvements
 
-Rajan Jaiswal
+- Transformer-based Language Model
+- Top-K Predictions
+- Beam Search
+- Sentence Auto Completion
+- Hugging Face Integration
+- GPT-based Prediction
+- Better UI & Animations
 
-Machine Learning Enthusiast
+---
+
+## 📚 Learning Outcomes
+
+Through this project, I gained practical experience with:
+
+- Deep Learning
+- Natural Language Processing (NLP)
+- Sequence Modeling
+- LSTM Networks
+- TensorFlow & Keras
+- Model Deployment using Streamlit
+- Git & GitHub
+
+---
+
+## 👨‍💻 Author
+
+**Rajan Jaiswal**
+
+GitHub:
+https://github.com/rajanjaiswalml
+
+LinkedIn:
+(Add your LinkedIn profile)
+
+---
+
+⭐ If you found this project useful, consider giving it a star.
