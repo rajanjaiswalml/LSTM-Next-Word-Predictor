@@ -1,6 +1,7 @@
 # Next Word Predictor using LSTM
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://next-word-predictor-rajan.streamlit.app)
+[![Live Demo](https://img.shields.io/badge/🚀-Live_Demo-success?style=for-the-badge)](https://next-word-predictor-rajan.streamlit.app)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/rajanjaiswalml/LSTM-Next-Word-Predictor)
 [![Python](https://img.shields.io/badge/Python-3.11-blue)]
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.16-orange)]
 [![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red)]
